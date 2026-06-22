@@ -60,7 +60,8 @@ HOME="$TMP_DIR/python-home" python3 "$ROOT_DIR/install.py" --target "$python_tar
 
 release_dir="$TMP_DIR/release"
 python3 "$ROOT_DIR/scripts/build_release.py" --root "$ROOT_DIR" --output-dir "$release_dir" >/dev/null
-assert_file "$release_dir/$(date '+%m%d')-OPC工具包-安装包-01.zip"
-assert_file "$release_dir/$(date '+%m%d')-OPC工具包-安装包-01.tar.gz"
+assert_file "$release_dir/opc-toolkit-v1.0.0.zip"
+assert_file "$release_dir/opc-toolkit-v1.0.0.tar.gz"
+assert_file "$release_dir/opc-toolkit-v1.0.0-SHA256SUMS.txt"
 
 echo "Smoke tests passed."

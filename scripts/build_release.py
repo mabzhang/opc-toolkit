@@ -102,11 +102,11 @@ def main() -> int:
         check=True,
     )
 
-    release_name = args.release_name or f"{datetime.now():%m%d}-OPC工具包-安装包-01"
+    release_name = args.release_name or f"opc-toolkit-v{bundle['version']}"
     output_dir.mkdir(parents=True, exist_ok=True)
     zip_path = output_dir / f"{release_name}.zip"
     tar_path = output_dir / f"{release_name}.tar.gz"
-    checksum_path = output_dir / f"{datetime.now():%m%d}-OPC工具包-校验值-01.txt"
+    checksum_path = output_dir / f"{release_name}-SHA256SUMS.txt"
 
     for path in (zip_path, tar_path, checksum_path):
         if path.exists():
