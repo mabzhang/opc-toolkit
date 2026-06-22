@@ -1,0 +1,4 @@
+interface:
+  display_name: "营销任务拆解"
+  short_description: "把营销方案拆成可执行任务单、排期、依赖关系和验收标准"
+  default_prompt: "Use $task-decomposition to turn this marketing plan into an executable task order."

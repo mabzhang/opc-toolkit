@@ -1,0 +1,4 @@
+interface:
+  display_name: "OPC 全案提案"
+  short_description: "把零散营销需求生成4A级全案提案、执行任务单和排期计划"
+  default_prompt: "Use $opc-proposal to turn this marketing brief into a complete proposal and execution task order."

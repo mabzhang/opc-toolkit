@@ -1,0 +1,38 @@
+{
+  "name": "opc-toolkit",
+  "version": "1.0.0",
+  "description": "A portable Chinese brand-marketing agent toolkit with intelligent routing, research, strategy, proposal, content, and execution skills.",
+  "author": {
+    "name": "mabzhang",
+    "url": "https://github.com/mabzhang"
+  },
+  "homepage": "https://github.com/mabzhang/opc-toolkit",
+  "repository": "https://github.com/mabzhang/opc-toolkit",
+  "license": "MIT",
+  "skills": "./skills/",
+  "keywords": [
+    "marketing",
+    "brand-strategy",
+    "campaign",
+    "chinese",
+    "agent-skills"
+  ],
+  "interface": {
+    "displayName": "OPC 智能营销工具包",
+    "shortDescription": "从 Brief 到洞察、策略、提案与执行的一体化智能营销工作流",
+    "longDescription": "包含智能路由器和十个专业营销技能，可将零散需求转化为研究、策略、内容、提案、排期与执行任务单。",
+    "developerName": "mabzhang",
+    "category": "Productivity",
+    "capabilities": [
+      "Research",
+      "Write",
+      "Plan"
+    ],
+    "brandColor": "#E4572E",
+    "defaultPrompt": [
+      "用 OPC Toolkit 把这份 Brief 变成完整营销方案。",
+      "分析这个品牌的竞品与消费者机会。",
+      "把现有方案拆成可执行任务单。"
+    ]
+  }
+}

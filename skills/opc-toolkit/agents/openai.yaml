@@ -1,0 +1,4 @@
+interface:
+  display_name: "OPC 智能营销工具包"
+  short_description: "智能路由营销需求到全案、洞察、内容、提案与执行工作流"
+  default_prompt: "Use $opc-toolkit to select and run the right marketing workflow for this request."

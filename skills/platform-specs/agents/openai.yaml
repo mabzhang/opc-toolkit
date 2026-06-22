@@ -1,0 +1,4 @@
+interface:
+  display_name: "平台素材规格"
+  short_description: "核验主流平台素材尺寸、文件格式、安全区和交付要求清单"
+  default_prompt: "Use $platform-specs to verify the required platform material specs for this campaign."

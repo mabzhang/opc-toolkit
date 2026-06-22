@@ -1,0 +1,4 @@
+interface:
+  display_name: "社媒内容方案"
+  short_description: "规划多平台内容矩阵、内容日历和社媒运营执行任务清单"
+  default_prompt: "Use $social-media-plan to create a multi-platform content matrix and calendar."

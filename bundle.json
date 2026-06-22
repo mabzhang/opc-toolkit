@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "name": "opc-toolkit",
+  "version": "1.0.0",
+  "description": "Portable OPC brand-marketing Agent Skills bundle",
+  "entry_skill": "opc-toolkit",
+  "skills": [
+    "opc-toolkit",
+    "opc-proposal",
+    "brief-analysis",
+    "competitor-analysis",
+    "consumer-insight",
+    "campaign-planning",
+    "social-media-plan",
+    "platform-adaptation",
+    "platform-specs",
+    "marketing-proposal",
+    "task-decomposition"
+  ],
+  "supported_agents": [
+    "codex",
+    "claude",
+    "cursor",
+    "copilot",
+    "gemini",
+    "agents",
+    "custom"
+  ]
+}

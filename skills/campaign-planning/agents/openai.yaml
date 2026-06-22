@@ -1,0 +1,4 @@
+interface:
+  display_name: "Campaign 策划"
+  short_description: "从洞察到创意主题、渠道节奏和KPI规划整合Campaign"
+  default_prompt: "Use $campaign-planning to develop an integrated campaign strategy and rollout plan."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brief 需求解析"
+  short_description: "把Brief和聊天记录整理成标准需求卡、假设与缺口清单"
+  default_prompt: "Use $brief-analysis to normalize this brief into a requirement card and gap list."

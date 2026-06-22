@@ -1,0 +1,4 @@
+interface:
+  display_name: "竞品分析"
+  short_description: "研究竞品定位、内容、渠道和差异化机会并输出策略启示"
+  default_prompt: "Use $competitor-analysis to research these competitors and identify strategic opportunities."

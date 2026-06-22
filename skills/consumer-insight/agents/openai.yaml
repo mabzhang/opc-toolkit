@@ -1,0 +1,4 @@
+interface:
+  display_name: "消费者洞察"
+  short_description: "提炼人群洞察、购买障碍、内容触发策略并指导创意执行"
+  default_prompt: "Use $consumer-insight to turn this audience context into creative-ready consumer insights."

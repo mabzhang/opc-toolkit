@@ -1,0 +1,19 @@
+{
+  "name": "opc-toolkit",
+  "version": "1.0.0",
+  "description": "Portable Chinese brand-marketing workflows for briefs, research, strategy, proposals, content, and execution.",
+  "author": {
+    "name": "mabzhang",
+    "url": "https://github.com/mabzhang"
+  },
+  "homepage": "https://github.com/mabzhang/opc-toolkit",
+  "repository": "https://github.com/mabzhang/opc-toolkit",
+  "license": "MIT",
+  "keywords": [
+    "marketing",
+    "brand-strategy",
+    "campaign",
+    "chinese",
+    "agent-skills"
+  ]
+}
