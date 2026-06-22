@@ -53,7 +53,14 @@ brief-analysis
 
 ## 安装
 
-下载或克隆仓库后进入项目目录。
+推荐从 [Releases](https://github.com/mabzhang/opc-toolkit/releases) 下载最新安装包。
+
+也可以直接克隆仓库：
+
+```bash
+git clone https://github.com/mabzhang/opc-toolkit.git
+cd opc-toolkit
+```
 
 ### macOS / Linux
 
